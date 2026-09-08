@@ -1,29 +1,69 @@
 
+nav {
+        background: url('../images/nav.jpg') center/cover;
+        background-repeat: repeat-y;
 
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
-/*
-:root {
-  /*
-    * The :root selector allows you to define CSS variables that can be reused throughout your stylesheet.
-    * In this case, we're defining a variable called --primary-color with the value #333 (a dark gray).
+    }
 
-   */
-ADD ENDING BRACKET */ */ a {
-  color: #333;
-  text-decoration: none;
-}
+    nav a {
+        color: #fff;
+        -webkit-text-stroke: 1px #333;
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: none;
+        margin: 0 1rem;
+        display: inline-block;
+    }
 
-body {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(94, 94, 94);
-}
+    nav a:hover {
+        text-decoration: underline;
+    }
 
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  color: #333;
-}
+    body {
+        background-image: url('../images/polkadotbg.jpg');
+        background-repeat: repeat-x;
+        background-size: cover;
+        background-position: center;
+        background-color: rgb(94, 94, 94);
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #000000;
+        font-size: 20px;
+        font-weight: bold;
+        -webkit-text-stroke: .4px #333;
+    }
+
+    .container {
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    section {
+        margin: 2rem 0;
+    }
+
+    footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+    
+
+
+
+    #elletext {
+        /*font-style: italic;*/
+        font-family: georgia, sans-serif;
+        font-size: 36px;
+        margin: 0;
+        -webkit-text-fill-color: white;
+        -webkit-text-fill-width: 3px;
+        -webkit-text-stroke-width: 3px black;
+        -webkit-text-stroke: 1px black;
+    }

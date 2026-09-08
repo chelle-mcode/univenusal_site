@@ -2,106 +2,42 @@
 
 <html lang="en">
 
+
+
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FEMMEOLOGIST WEBSITE</title>
 
-    <link href="style.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/nav.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="./public/css/style.css">
 
 </head>
 
-
-<style>
-    nav {
-        background: url('public/images/nav.jpg') center/cover;
-        background=repeat-y;
-        padding: 0rem;
-
-    }
-
-    nav a {
-        color: #fff;
-        -webkit-text-stroke: 1px #333;
-        font-weight: bold;
-        font-size: 25px;
-        text-decoration: none;
-        margin: 0 1rem;
-        display: inline-block;
-    }
-
-    nav a:hover {
-        text-decoration: underline;
-    }
-
-    body {
-        background-image: url('public/images/polkadotbg.jpg');
-        background-repeat: repeat-x;
-        background-size: cover;
-        background-position: center;
-        background-color: rgb(94, 94, 94);
-    }
-
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        color: #000000;
-        font-size: 20px;
-        font-weight: bold;
-        -webkit-text-stroke: .4px #333;
-    }
-
-    .container {
-        max-width: 1080px;
-        margin: 0 auto;
-        padding: 2rem;
-    }
-
-    section {
-        margin: 2rem 0;
-    }
-
-    footer {
-        background: #333;
-        color: #fff;
-        text-align: center;
-        padding: 1rem;
-        margin-top: 2rem;
-    }
-
-
-
-    #elletext {
-        /*font-style: italic;*/
-        font-family: georgia, sans-serif;
-        font-size: 36px;
-        margin: 0;
-        -webkit-text-fill-color: white;
-        -webkit-text-fill-width: 3px;
-        -webkit-text-stroke-width: 3px black;
-        -webkit-text-stroke: 1px black;
-    }
-</style>
-
 <body>
-    <header>
-        <h1>WELCOME!</h1>
-    </header>
+
 
 
     <nav>
-        <a href="Home/index.html">Home</a>
-        <a href="About-Me/index.html">About</a>
-        <a href="Projects/index.html">Projects</a>
-        <a href="Contact/index.html">Contact</a>
-        <a href="Libraries/index.html">Libraries</a>
+        <a href="/neocitElle.html">Home</a>
+        <a href="About-Me/index.html"> About Me!</a>
+        <a href="Projects/index.html"> Projects</a>
+        <a href="Contact/index.html"> Contact</a>
+        <a href="Libraries/index.html"> Libraries</a>
+        <a href=""> Blogging Days..</a>
     </nav>
 
     <p id="elletext">
         Welcome to my personal website!
     </p>
+    <script language="JavaScript" style="monospace">
+        var today = new Date();
+        var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+        var msg = "Hello Traveler. Thank you for venturing out into this little corner of me [ Elle! ) on " + date + ". I hope you enjoy your stay!";
+        document.write(msg);
+
+
+    </script>
 
     <p>
         This is a place where I will share my projects, thoughts, and anything else I find interesting. Feel free to
