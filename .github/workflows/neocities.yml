@@ -28,10 +28,8 @@ jobs:
       #     npm run build
       # When the dist_dir is ready, deploy it to neocities
       - name: Deploy to neocities
-        env:
-          NEOCITIES_API_TOKEN: ${{ secrets.NEOCITIES_API_TOKEN }}
         uses: bcomnes/deploy-to-neocities@v3
         with:
-          api_key: ${{ env.NEOCITIES_API_TOKEN }}
+          api_key: ${{ secrets.NEOCITIES_API_TOKEN }}
           cleanup: true
           dist_dir: public
